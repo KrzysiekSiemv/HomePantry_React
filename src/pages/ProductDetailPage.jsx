@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { Card, Badge, Button, Row, Col, Table, Alert } from 'react-bootstrap';
+import { Card, Badge, Button, Table, Alert } from 'react-bootstrap';
 import { usePantry } from "../context/PantryContext";
 
 function getExpiryStatus(expiry) {
